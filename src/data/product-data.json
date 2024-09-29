@@ -1,339 +1,242 @@
- [
+[
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            1,
-            2,
-            4
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1131.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [1, 2, 4],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            1,
-            3,
-            5
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1221.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [1, 3, 5],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            1,
-            3
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1223.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [1, 3],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            1,
-            2,
-            3
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1227.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [1, 2, 3],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            1,
-            3
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1236.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [1, 3],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            1,
-            3
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1237.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [1, 3],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            3,
-            1,
-            2
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1238.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [3, 1, 2],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            1,
-            3
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1239.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [1, 3],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            1,
-            3
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1240.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [1, 3],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            3,
-            1,
-            2
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1241.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [3, 1, 2],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            1,
-            3,
-            2
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1248.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [1, 3, 2],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            4,
-            3,
-            1
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1249.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [4, 3, 1],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            5,
-            3,
-            1
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1250.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [5, 3, 1],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            1,
-            3,
-            2
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1251.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [1, 3, 2],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            5,
-            3,
-            1
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1252.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [5, 3, 1],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            3,
-            1,
-            5
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1253.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [3, 1, 5],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            5,
-            3,
-            1
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1260.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [5, 3, 1],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            5,
-            4,
-            2
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1261.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [5, 4, 2],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            4,
-            2,
-            5
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1262.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [4, 2, 5],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            3,
-            2,
-            4
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1263.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [3, 2, 4],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            2,
-            3,
-            5
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1264.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [2, 3, 5],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A544",
-        "price":"3500",
-        "filter":[
-            4,
-            3,
-            5
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1265.png",
+        "artikul": "A544",
+        "price": "3500",
+        "filter": [4, 3, 5],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            1,
-            3,
-            2
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1272.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [1, 3, 2],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            1,
-            3,
-            2
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1273.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [1, 3, 2],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            1,
-            3,
-            5
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1274.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [1, 3, 5],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            1,
-            3,
-            4
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1275.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [1, 3, 4],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            1,
-            3,
-            5
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1276.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [1, 3, 5],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            1,
-            3,
-            5
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1277.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [4, 3, 2],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            4,
-            3,
-            2
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1225.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [5, 3, 2],
+        "category_id": 1
     },
     {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            5,
-            4,
-            2
-        ]
-    },
-    {
-        "name":"'Kolco'",
-        "image":"img/categories/Kolco.png",
-        "artikul":"A555",
-        "price":"4500",
-        "filter":[
-            2,
-            3,
-            4
-        ]
+        "name": "'Kolco'",
+        "image": "img/product/Rectangle 1229.png",
+        "artikul": "A555",
+        "price": "4500",
+        "filter": [5, 3, 2],
+        "category_id": 1
     }
-   
 ]

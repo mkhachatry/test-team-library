@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Кольцо",
+        "image": "img/categories/Kolco.png"
+    },
+    {
+        "id": 2,
+        "name": "Колье",
+        "image": "img/categories/Kole.png"
+    },
+    {
+        "id": 3,
+        "name": "Серьги",
+        "image": "img/categories/Sergi.png"
+    },
+    {
+        "id": 4,
+        "name": "Цепь",
+        "image": "img/categories/Cep.png"
+    },
+    {
+        "id": 5,
+        "name": "Брошь",
+        "image": "img/categories/Brosh.png"
+    },
+    {
+        "id": 6,
+        "name": "Кулоны",
+        "image": "img/categories/Kulon.png"
+    },
+    {
+        "id": 7,
+        "name": "Браслеты",
+        "image": "img/categories/Brasleti.png"
+    }
+]
