@@ -55,4 +55,105 @@ border-radius: 5px;
 background: white;
 box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
 padding: 27px 15px;
+cursor: pointer;
+}
+
+.add-category-popup{
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 1000; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px; 
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.add-category-popup-layer{
+    position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0 0 0 / 78%); 
+  z-index: 999;
+
+}
+.add-category-popup-title{
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.add-category-popup-close {
+    font-size: 54px;
+    line-height: 1px;
+    color: #847f80;
+    transform: rotate(45deg);
+    float: right;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.add-category-popup-women-man{
+    margin-top: 20px;
+}
+
+.add-category-popup-women-man>.women{
+    
+}
+
+.add-category-popup-women-man .icon {
+    
+}
+
+.add-category-popup-women-man>.man{
+    margin-left: 45px;
+}
+
+.category-type{
+    float: left;
+    width: 125px;
+    height: 26px;
+    border: solid 1px #a4a4a4;
+    border-radius: 5px;
+    padding: 6px 0px 0px 0px;
+    text-align: center;
+}
+
+.add-category-popup-form .name input {
+    outline: none;
+    border: none;
+    border-bottom: solid 1px #c1c1c1;
+    width: 294px;
+    margin-top: 25px;
+    font-size: 17px;
+    color: black;
+}
+
+
+.default-preview{
+    width: 300px;
+    height: 100px;
+    background-color: #d3d3d3;
+    margin-top: 15px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.uploading-image{
+    max-width: 300px;
+    max-height: 100px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.add-category-popup-form .image {
+    text-align: center;
 }

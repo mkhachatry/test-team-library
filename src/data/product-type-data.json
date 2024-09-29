@@ -1,23 +1,22 @@
 [
     {
-        "id":1,
-        "name":"Kolco"
+        "id": 1,
+        "name": "Кольцо"
     },
     {
-        "id":2,
-        "name":"Obruchalnoe"
+        "id": 2,
+        "name": "Обручальные"
     },
     {
-        "id":3,
-        "name":"Kolca Kasteti"
+        "id": 3,
+        "name": "Кольца Кастеты"
     },
     {
-        "id":4,
-        "name":"Koktelnie"
+        "id": 4,
+        "name": "Коктейльные"
     },
     {
-        "id":5,
-        "name":"Pomolbochnie"
+        "id": 5,
+        "name": "Помолвочные"
     }
-    
 ]
