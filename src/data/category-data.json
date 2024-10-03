@@ -2,36 +2,157 @@
     {
         "id": 1,
         "name": "Кольцо",
-        "image": "img/categories/Kolco.png"
+        "image": "img/categories/Kolco.png",
+        "type": "mwomen",
+        "sub": [
+            {
+                "id": 1,
+                "name": "Кольцо"
+            },
+            {
+                "id": 2,
+                "name": "Обручальные"
+            },
+            {
+                "id": 3,
+                "name": "Кольца Кастеты"
+            },
+            {
+                "id": 4,
+                "name": "Коктейльные"
+            },
+            {
+                "id": 5,
+                "name": "Помолвочные"
+            }
+        ]
     },
     {
         "id": 2,
         "name": "Колье",
-        "image": "img/categories/Kole.png"
+        "image": "img/categories/Kole.png", 
+        "type": "mwomen",
+        "sub": [
+            {
+                "id": 1,
+                "name": "Обручальные"
+            },
+            {
+                "id": 2,
+                "name": "Коктейльные"
+            },
+            {
+                "id": 3,
+                "name": "Помолвочные"
+            }
+        ]
     },
     {
         "id": 3,
         "name": "Серьги",
-        "image": "img/categories/Sergi.png"
+        "image": "img/categories/Sergi.png",
+        "type": "mwomen",
+        "sub": [
+            {
+                "id": 1,
+                "name": "Кольцо"
+            },
+            {
+                "id": 2,
+                "name": "Обручальные"
+            },
+            {
+                "id": 3,
+                "name": "Кольца Кастеты"
+            },
+            {
+                "id": 4,
+                "name": "Коктейльные"
+            },
+            {
+                "id": 5,
+                "name": "Помолвочные"
+            }
+        ]
     },
     {
         "id": 4,
         "name": "Цепь",
-        "image": "img/categories/Cep.png"
+        "image": "img/categories/Cep.png",
+        "type": "mwomen",
+        "sub": [
+            {
+                "id": 1,
+                "name": "Обручальные"
+            },
+            {
+                "id": 2,
+                "name": "Коктейльные"
+            },
+            {
+                "id": 3,
+                "name": "Помолвочные"
+            }
+        ]
     },
     {
         "id": 5,
         "name": "Брошь",
-        "image": "img/categories/Brosh.png"
+        "image": "img/categories/Brosh.png",
+        "type": "mwomen",
+        "sub": [
+            {
+                "id": 1,
+                "name": "Обручальные"
+            },
+            {
+                "id": 2,
+                "name": "Коктейльные"
+            },
+            {
+                "id": 3,
+                "name": "Помолвочные"
+            }
+        ]
     },
     {
         "id": 6,
         "name": "Кулоны",
-        "image": "img/categories/Kulon.png"
+        "image": "img/categories/Kulon.png",
+        "type": "mwomen",
+        "sub": [
+            {
+                "id": 1,
+                "name": "Обручальные"
+            },
+            {
+                "id": 2,
+                "name": "Коктейльные"
+            },
+            {
+                "id": 3,
+                "name": "Помолвочные"
+            }
+        ]
     },
     {
         "id": 7,
         "name": "Браслеты",
-        "image": "img/categories/Brasleti.png"
+        "image": "img/categories/Brasleti.png",
+        "type": "mwomen",
+        "sub": [
+            {
+                "id": 1,
+                "name": "Обручальные"
+            },
+            {
+                "id": 2,
+                "name": "Коктейльные"
+            },
+            {
+                "id": 3,
+                "name": "Помолвочные"
+            }
+        ]
     }
 ]

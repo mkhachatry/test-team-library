@@ -18,7 +18,8 @@
 
 }
 .categories-list-container{
-    display: flex;
+    /* display: flex; */
+    width: 1127px;
 
  }
 .categories-list-container .categories-item{
@@ -31,6 +32,7 @@
     cursor: pointer;
     align-items: center;
     background: white;
+    float: left;
 }
 
 .categories-item{
@@ -39,7 +41,9 @@
     flex-direction: column;
     border-radius: 5px;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+    display: inline-block;
 }
+
 .categories-item:hover{
     opacity: 0.6;
    
@@ -137,7 +141,7 @@ cursor: pointer;
 
 .default-preview{
     width: 300px;
-    height: 100px;
+    height: 105px;
     background-color: #d3d3d3;
     margin-top: 15px;
     border-radius: 10px;
@@ -156,4 +160,75 @@ cursor: pointer;
 
 .add-category-popup-form .image {
     text-align: center;
+}
+
+.category-type{
+    cursor: pointer;
+}
+
+.save-category-button input {
+    width: 259px;
+    height: 32px;
+    border-radius: 25px;
+    background: #0008C1;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+}
+
+.save-category-button{
+    text-align: center;
+}
+
+.categories-list-container {
+    /* width: 100%;  */
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.categories-scroll {
+    display: inline-block;
+    /* padding: 10px; */
+}
+
+.categories-list-container::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+.categories-list-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.categories-list-container::-webkit-scrollbar-thumb {
+    background-color: #0008C1; 
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+}
+
+.categories-list-container::-webkit-scrollbar-thumb:hover {
+    background-color: #0008C1;
+}
+
+/* Firefox */
+.categories-list-container {
+    scrollbar-width: thin;
+    scrollbar-color: #0008C1 #f1f1f1;
+}
+
+
+.category-type.active{
+    background: #e0dede;
+}
+
+.categories-item img{
+    max-width: 44px;
+    max-height: 44px;
+}
+
+.categories-item.active{
+    border: solid 1px rgb(23, 22, 22);
+    z-index: 801;
+    position: relative;
 }

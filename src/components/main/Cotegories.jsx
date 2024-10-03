@@ -1,15 +1,33 @@
 import './Cotegories.css';
 import React, { useState, useEffect, useRef} from 'react';
 import {categories} from "../../data";
+import { width } from '@fortawesome/free-regular-svg-icons/faAddressBook';
 
-const Categories = () => {
+const Categories = ({ setActiveCategory }) => {
 
     const [show, setShow] = useState(false);
+    const [nameValue, setNameValue] = useState(null);
+    const [popupCtegoryType, setPopupCtegoryType] = useState('women');
     const [popupStyle, setPopupStyle] = useState({});
     const [showDefaultImage, setShowDefaultImage] = useState(true);
-    const [imagePreview, setImagePreview] = useState("path/to/default-image.png");
+    const [imagePreview, setImagePreview] = useState(null);
+    const [activeCategoryId, setActiveCategoryId] = useState(1);
     const buttonRef = useRef(null);
     const fileInputRef = useRef(null);
+
+    useEffect(() => {
+        const activeCategoryId = localStorage.getItem('activeCategoryId');
+        if (activeCategoryId) {
+            setActiveCategoryId(parseInt(activeCategoryId));
+        }
+    }, []);
+
+    useEffect(() => {
+        if (isFinite(Number(activeCategoryId))) {
+            localStorage.setItem('activeCategoryId', activeCategoryId);
+            setActiveCategory(activeCategoryId)
+        }
+    }, [activeCategoryId]);
 
     const handleAddCategory = ()=>{
         if (buttonRef.current) {
@@ -19,7 +37,8 @@ const Categories = () => {
               left: `${buttonRect.left + window.scrollX - 122}px`,
             });
         }
-
+        
+        setShowDefaultImage(true);
         setShow(true);
     }
 
@@ -43,6 +62,23 @@ const Categories = () => {
         fileInputRef.current.click()
     }
 
+    const addCategoryHandler = () => {
+        if(!nameValue || !imagePreview){
+            return alert("Заполните все обязательные поля");
+        }
+        const categoryId = Math.max(...categories.map(category => category.id)) + 1;
+        categories.push(
+            {
+                "id": categoryId,
+                "name": nameValue,
+                "image": imagePreview,
+                "type": popupCtegoryType,
+                sub: []
+            }
+        );
+        setShow(false)
+    }
+
     return (
     <div className="categories">
         <div>
@@ -54,18 +90,26 @@ const Categories = () => {
             </div>
         </div>
         <div className='categories-list-container'>
+        <div className='categories-scroll' style={{ width: `${categories.length * 161}px` }}>
             {categories.map((item, index)=>{
                 return (
-                <div key={index} className='categories-item'>
+                <div
+                onClick={()=>{
+                    setActiveCategoryId(item.id)
+                }}
+                 key={index} 
+                 className={`categories-item ${activeCategoryId === item.id?'active':''}`}
+                 >
                     <div>
                         <img src={item.image} />
                     </div>
                     <div>
-                    {item.name}
+                        {item.name}
                     </div>
                 </div>
             );
             })}
+            </div>
         </div>
 
         <div style={{
@@ -82,21 +126,31 @@ const Categories = () => {
                         <span onClick={handleCloseAddCategory} className='add-category-popup-close'>+</span>
                     </div>
                     <div className='add-category-popup-women-man'>
-                        <div className='women category-type'>
+                        <div 
+                            onClick={()=>{setPopupCtegoryType('women')}}
+                            className={`women category-type ${popupCtegoryType=='women'?'active':''}`}
+                        >
                             <span className='icon'><img src="img/icons/Vector-women.png" /></span>
                             <span className='text'>Женский</span>
                         </div>
-                        <div className='man category-type'>
+                        <div
+                            onClick={()=>{setPopupCtegoryType('man')}}
+                            className={`man category-type ${popupCtegoryType=='man'?'active':''}`}
+                        >
                             <span className='icon'><img src="img/icons/Vector-man.png" /></span>
                             <span className='text'>Мужской</span>
                         </div>
                     </div>
                     <div className='add-category-popup-form'>
                         <div className='name'>
-                            <input placeholder='Категория' />
+                            <input 
+                                value={nameValue}
+                                onChange={(e)=>{setNameValue(e.target.value)}} 
+                                placeholder='Категория' 
+                            />
                         </div>
                         <div className='image'>
-                            <input 
+                            <input
                                 type="file" 
                                 accept="image/*" 
                                 onChange={handleImageChange} 
@@ -118,11 +172,13 @@ const Categories = () => {
                                 style={showDefaultImage?{display:'none'}:{}}
                             />
                         </div>
+                        <div onClick={addCategoryHandler} className='save-category-button'><input type="button" value="Добавить" /></div>
                     </div>
                 </div>
             </div>
             
         )}
+        
     </div>
     )
 }
