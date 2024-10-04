@@ -37,7 +37,7 @@ const Categories = ({ setActiveCategory }) => {
               left: `${buttonRect.left + window.scrollX - 122}px`,
             });
         }
-        
+        setNameValue('');
         setShowDefaultImage(true);
         setShow(true);
     }
