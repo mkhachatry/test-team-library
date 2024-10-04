@@ -43,8 +43,11 @@ const ProductList = ({ activeCategoryId }) => {
     } 
 
     const saveSubCategoryHandler = () => {
-        //activeCategoryId
-        const subId = Math.max(...subCategoryList.map(sub => sub.id)) + 1;
+        let subId = 1;
+        if(subCategoryList.length > 0){
+            subId = Math.max(...subCategoryList.map(sub => sub.id)) + 1;
+        }
+        
         const subName = newSubName;
         if(!subName){
             alert("Заполните все обязательные поля");
